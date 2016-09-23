@@ -1,0 +1,2 @@
+stage skf02 hdfs spark-submit  --class com.remarkmedia.spark.task.ProfilePostcount   --executor-memory 1500mb  --master yarn-cluster /tmp/20160923-112357-43bd/dragon-spark-assembly-0.1.jar
+production phb03  spark-submit  --class com.remarkmedia.spark.task.Production2Stage_post --num-executors 3  --executor-cores 8 --executor-memory 7200mb  --master yarn-cluster    /tmp/20160901-153949-fea8/dragon-spark-assembly-0.1.jar
